@@ -5,9 +5,15 @@
     background-color: #363a3f;
     height: 100vh;
 }
-
-.chat_msg{
+.chat_messages{
     flex: 1;
+    overflow: scroll;   /* to make it scrollable */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.chat_messages::-webkit-scrollbar{
+    display: none;
 }
 
 .chat_input{
@@ -22,14 +28,14 @@
     background-color: #474b53;
 }
 
-.chat_input > form > input {
+.chat_input > form > input{
     padding: 15px;
     background: transparent;
     border: none;
+    width: 100%;
     outline-width: 0;
     color: white;
     font-size: large;
-    width: 100%;
 }
 
 .chat_input > form {
@@ -40,6 +46,6 @@
     display: none;
 }
 
-.chat_inputIcons > .MuiSvgIcon-root {
+.chat_inputIcons > .MuiSvgIcon-root{
     padding: 5px;
 }

@@ -4,11 +4,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Preview
 
-![Preview 1](ScreenShots/ss1.jpg)
+![Preview Gif](ScreenShots/ss.gif)
+![UI](ScreenShots/ss1.jpg)
+![Firebase](ScreenShots/ss2.jpg)
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `yarn install`
 
 ### `yarn start`
 

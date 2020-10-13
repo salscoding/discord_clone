@@ -1,16 +1,19 @@
-.msg{
+.message{
     display: flex;
     align-items: center;
     padding: 20px;
     color: white;
 }
 
-.msg_info{
+.message_info{
     margin-left: 20px;
 }
 
-.msg_timestamp{
-    color: gray;
+.message_timestamp{
+    color:chocolate;
     margin-left: 20px;
     font-size: x-small;
+}
+.user_name{
+    color: cornflowerblue;
 }
