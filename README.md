@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![Preview Gif](ScreenShots/ss.gif)
 ![UI](ScreenShots/ss1.jpg)
-![Firebase](ScreenShots/ss2.jpg)
+![MongoDB](ScreenShots/ss3.jpg)
 
 ## Available Scripts
 
